@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KP PRUDENT - Investment Advisory</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="img/logo.png" alt="KP PRUDENT">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+ 
+    <section class="hero">
+        <div class="container">
+            
+        <h1>Welcome to KP PRUDENT</h1>
+            <p>Your trusted partner in navigating the complex world of investment strategies. We empower individuals and businesses to make informed financial decisions and achieve their investment goals.</p>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Investment Coaching</h2>
+            
+            <div class="service-card">
+                <h3>Personalized Investment Guidance</h3>
+                <p>Receive personalized guidance from our expert coaches who will help you understand the fundamentals of investing and build a robust investment portfolio tailored to your needs.</p>
+                <a href="#" class="btn">Discover More</a>
+            </div>
+            
+            <div class="service-card">
+                <h3>Take the First Step</h3>
+                <p>Ready to start your investment journey? Our team of experts is here to guide you every step of the way. Don't wait any longer to secure your financial future!</p>
+                <a href="#" class="btn">Schedule a Consultation</a>
+            </div>
+        </div>
+   
+
+
+    <section class="consultation" id="contact">
+        <div class="container">
+            <h2>Schedule a Consultation</h2>
+            <p><b>Your Success is Our Priority</b><br>We are committed to providing exceptional service and support to help you achieve your financial goals.</p>
+            
+<section class="key-features">
+    <div class="container">
+        <h2>Why Choose KP PRUDENT</h2>
+        <div class="features-grid">
+            <!-- Feature 1 -->
+            <div class="feature-card">
+                <div class="feature-img">
+                    <img src="img/image2.png" alt="Market Expertise">
+                </div>
+                <h3>Market Expertise</h3>
+                <p>Decades of combined experience analyzing global markets and identifying profitable opportunities.</p>
+            </div>
+            
+            <!-- Feature 2 -->
+            <div class="feature-card">
+                <div class="feature-img">
+                    <img src="img/image4.png" alt="Expert Guidance">
+                </div>
+                <h3>Expert Guidance</h3>
+                <p>Personalized investment strategies tailored to your financial goals and risk tolerance.</p>
+            </div>
+            
+  
+            <div class="feature-card">
+                <div class="feature-img">
+                    <img src="img/image3.png" alt="Proven Results">
+                </div>
+                <h3>Proven Results</h3>
+                <p>Consistent track record of helping clients achieve above-market returns.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <p>MARKET BY KP TRADERS<br>Pacific: 0009/0004<br>DEC 2024<br>CONTACT OUR COMPANY : 878913#### <br> </p>
+                
+            </div>
+            <div class="copyright">
+                &copy; 2028 KP PRUDENT | ALL RIGHTS RESERVED
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 10) {
+                header.style.boxShadow = '0 5px 20px rgba(0,0,0,0.1)';
+            } else {
+                header.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+            }
+        });
+    </script>
+</body>
+</html>
