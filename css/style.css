@@ -63,7 +63,7 @@
 .hero {
     background-image: 
         linear-gradient(rgba(10, 30, 60, 0.7), rgba(10, 30, 60, 0.7)),
-        url('img/image1.png');
+        url('../img/image1.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -282,3 +282,4 @@
             }
 
         }
+
